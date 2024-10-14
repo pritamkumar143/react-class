@@ -1,9 +1,9 @@
 import { useContext } from "react"
-import { Datacontext } from "../context/DataContext"
+import { Xyz } from "../context/DataContext"
 
 
 const Footer = () => {
-    const [data,setdata]= useContext(Datacontext)
+    const [data,setdata]= useContext(Xyz)
   return (
       <div>
           <h1>Footer:{data}

@@ -1,8 +1,8 @@
 import { useContext } from "react";
-import { Datacontext } from "../context/DataContext.jsx";
+import { Xyz } from "../context/DataContext.jsx";
 
 const Header = () => {
-    const [data, setData] = useContext(Datacontext)
+    const [data, setData] = useContext(Xyz)
     return (
         <div>
             <h1>Header</h1>
