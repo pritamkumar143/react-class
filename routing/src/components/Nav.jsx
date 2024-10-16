@@ -20,6 +20,10 @@ const Nav = () => {
                 style={(e) => e.isActive ? { textDecoration: 'underline' } : {}}
                 className={(e) => e.isActive ? 'text-yellow-500' : ''}
                 to="/service" >Service</NavLink>
+            <NavLink
+                style={(e) => e.isActive ? { textDecoration: 'underline' } : {}}
+                className={(e) => e.isActive ? 'text-yellow-500' : ''}
+                to="/list" >List</NavLink>
         </div>
     );
 };
