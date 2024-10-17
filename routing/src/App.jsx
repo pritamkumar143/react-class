@@ -18,9 +18,15 @@ const App = () => {
         <Route path='about' element={<About />} />
         <Route path='service' element={<Service />} />
 
-        <Route path='list' element={<List />} />
-        <Route path='list/:i' element={<ListItem />} />
+        {/* <Route path='list' element={<List />} />
+        <Route path='list/:i' element={<ListItem />} /> */}
+
+        <Route path="/list" element={<List />}>
+          <Route path='/list/:i' element={<ListItem />} />
+
+        </Route>
         <Route path='*' element={<Pagenotfound />} />
+
 
       </Routes>
       
