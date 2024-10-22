@@ -22,6 +22,8 @@ const Item = () => {
   return (
     <div>
       <h1>pro</h1>
+      <button onClick={getproducts}>Get products</button>
+
     </div>
   )
 }
